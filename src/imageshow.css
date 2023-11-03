@@ -1,0 +1,124 @@
+@media(min-width: 751px){
+.content-head {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column; /* Display each film as a flex row */
+    text-align: center;
+    width: 25vw;
+    height: max-content;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+    padding: 2vh 2vw;
+}
+
+.img-pic {
+    height: auto;
+    width: 20vw;
+}
+
+#name {
+    font-weight: bold;
+    margin-left: -5vw;
+    font-size: 2vw;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 70%;
+    margin-left: 1vw;
+}
+
+#from {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+
+.add  {
+    color: #3863d1;
+    font-weight: bolder;
+    font-family: Gotham;
+    background-color: #8ca4e0;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+}
+
+.price {
+    color: #3863d1;
+    font-weight: bolder;
+    margin-left: 0.5vw;
+}
+
+}
+
+@media(max-width: 750px){
+    .content-head {
+        display: flex;
+        flex-wrap: wrap; 
+        width: fit-content;
+    }
+    
+    .img-container {
+        display: flex;
+        flex-direction: column; /* Display each film as a flex row */
+        text-align: center;
+        width: 90vw;
+        height: max-content;
+        margin-top: 5vh;
+        margin-left: 30vw;
+        margin-bottom: 5vh;
+        padding: 2vh 2vw;
+    }
+    
+    .img-pic {
+        height: auto;
+        width: 60vw;
+        margin-left: 5vw;
+    }
+    
+    #name {
+        font-weight: bold;
+        margin-left: -15vw;
+        font-size: 10vw;
+    }
+    
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 70%;
+        margin-left: 1vw;
+    }
+    
+    #from {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 8vw;
+    }
+    
+    .add  {
+        color: #3863d1;
+        font-weight: bolder;
+        font-family: Gotham;
+        background-color: #8ca4e0;
+        padding: 1vh 1vw;
+        border-radius: 10px;
+        font-size: 8vw;
+    }
+    
+    .price {
+        color: #3863d1;
+        font-weight: bolder;
+        margin-left: 0.5vw;
+        font-size: 6vw;
+    }
+    
+    }

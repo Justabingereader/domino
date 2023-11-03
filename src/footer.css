@@ -1,0 +1,165 @@
+@media(min-width: 751px){
+.content-heading {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px #bebfc8;
+    width: 75%;
+    margin-left: 10vw;
+}
+
+.content-one {
+    margin-right: 40vw;
+}
+
+.company {
+    font-family: Gotham;
+    color: #bebfc8;
+    margin-bottom: 5vh;
+    margin-top: 6vh;
+    font-size: 2vw;
+}
+
+.about, .inter, .faq, .contact {
+    color: rgb(99, 99, 173);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content-two {
+    margin-top: 6vh;
+    text-align: right;
+}
+
+.xlogo {
+    height: auto;
+    width: 5vw;
+}
+
+.facebook {
+    height: auto;
+    width: 3vw;
+}
+
+.pay {
+    margin-top: 5vh;
+    color: #bebfc8;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+}
+
+.card {
+    margin-left: -15vw;
+}
+
+.content-three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+}
+
+.domino {
+    height: fit-content;
+    width: fit-content;
+    margin-right: 10vw;
+}
+
+.content-three p {
+    margin-right: 5vw;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    margin-top: 0.2vw;
+}
+}
+
+@media(max-width: 750px){
+    .content-heading {
+        background-color: #f3f3f3;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: -2vw;
+    }
+    
+    .content-wrapper {
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 1px #bebfc8;
+        width: 75%;
+        margin-left: 10vw;
+    }
+    
+    .content-one {
+        margin-right: 20vw;
+    }
+    
+    .company {
+        font-family: Gotham;
+        color: #bebfc8;
+        margin-bottom: 5vh;
+        margin-top: 6vh;
+        font-size: 8vw;
+    }
+    
+    .about, .inter, .faq, .contact {
+        color: rgb(99, 99, 173);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 8vw;
+    }
+    
+    .content-two {
+        margin-top: 6vh;
+        text-align: right;
+    }
+    
+    .xlogo {
+        height: auto;
+        width: 20vw;
+    }
+    
+    .facebook {
+        height: auto;
+        width: 13vw;
+    }
+    
+    .pay {
+        margin-top: 5vh;
+        color: #bebfc8;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10vw;
+    }
+    
+    .card {
+        margin-left: -15vw;
+    }
+    
+    .content-three {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 5vh;
+        margin-left: 10vw;
+        margin-bottom: 5vh;
+    }
+    
+    .domino {
+        height: fit-content;
+        width: fit-content;
+        margin-right: 10vw;
+    }
+    
+    .content-three p {
+        margin-right: 5vw;
+        font-weight: lighter;
+        font-size: 8vw;
+        margin-top: 0.2vw;
+    }
+    }

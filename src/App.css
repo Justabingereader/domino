@@ -1,0 +1,174 @@
+@media(min-width: 751px){
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(233, 231, 231);
+    font-weight: 100;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 3vh 0;
+}
+
+.dom-logo {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5vw;
+}
+
+.order {
+    list-style: none;
+    color: blue;
+    text-decoration: none;
+    margin-left: 25vw;
+    font-size: 1.5vw;
+    border-bottom: 2px solid blue;
+    border-bottom-width: 0.2vw;
+}
+
+.order:hover {
+    cursor: pointer;
+}
+
+.deals {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5vw;
+    font-size: 1.5vw;
+}
+
+.deals:hover {
+    cursor: pointer;
+}
+
+.location {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5vw;
+    font-size: 1.5vw;
+}
+
+.location:hover {
+    cursor: pointer;
+}
+
+#cart {
+    width: auto;
+    height: 4vh;
+    margin-left: 20vw;
+    margin-top: 1vh;
+    list-style: none;
+    text-decoration: none;
+}
+
+.login {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    border: 1px solid lightblue;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 1vh 1vw;
+}
+
+.login:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+}
+
+@media(max-width: 750px){
+    nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(233, 231, 231);
+        font-weight: 100;
+        width: fit-content;
+        padding-right: 17vw;
+        margin: 0 auto;
+        height: auto;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        padding: 3vh 0;
+    }
+    
+    .dom-logo {
+        list-style: none;
+        text-decoration: none;
+        margin-left: 3vw;
+    }
+    
+    .order {
+        list-style: none;
+        color: blue;
+        text-decoration: none;
+        margin-left: 10vw;
+        font-size: 6vw;
+        border-bottom: 2px solid blue;
+        border-bottom-width: 0.2vw;
+    }
+    
+    .order:hover {
+        cursor: pointer;
+    }
+    
+    .deals {
+        list-style: none;
+        text-decoration: none;
+        margin-left: 5vw;
+        font-size: 6vw;
+    }
+    
+    .deals:hover {
+        cursor: pointer;
+    }
+    
+    .location {
+        list-style: none;
+        text-decoration: none;
+        margin-left: 5vw;
+        font-size: 6vw;
+    }
+    
+    .location:hover {
+        cursor: pointer;
+    }
+    
+    #cart {
+        width: 8vw;
+        height: auto;
+        margin-left: 10vw;
+        margin-top: 1vh;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    .login {
+        list-style: none;
+        text-decoration: none;
+        margin-left: 1vw;
+        font-size:6vw;
+        border: 1px solid lightblue;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        padding: 1vh 1vw;
+    }
+    
+    .login:hover {
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+    }
